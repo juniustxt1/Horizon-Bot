@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": false,
-      "password": ""
+      "password": "botbot11"
     },
     "anti-afk": {
       "enabled": true,
@@ -46,7 +46,7 @@
     }
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -64,17 +64,17 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
@@ -86,6 +86,5 @@
     }
   },
   "chat": {
-    "respond": true
-  }
+    "respond": true  }
 }
